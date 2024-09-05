@@ -24,7 +24,7 @@ c must be assigned using A, B, c and any operator except +. So c = A/B would be 
 def constantsAndVariables() -> int:
     A = 5
     B = 7
-    c = A  # alter this line and add any others to generate a value
+    c = ((A*B)-(A+B))  # 5x7 is 35, 5+7 is 12. 35-12.
     # of 23 for c before the return statement (below). Make sure
     # your indentation matches the other constants (A & B) and variable (c)
 
